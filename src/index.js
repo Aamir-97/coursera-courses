@@ -1,15 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
 // import App from './App';
-import reportWebVitals from './reportWebVitals';
-import ListView from './list-view';
+import reportWebVitals from "./reportWebVitals";
+// import DialgBox from './pages/DialogBox';
+import QTest from "./pages/QTest";
+// import ListView from './list-view';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <QTest />
+    {/* <DialgBox /> */}
     {/* <App /> */}
-    <ListView />
+    {/* <ListView /> */}
   </React.StrictMode>
 );
 
